@@ -1,20 +1,72 @@
 public class GameDriver {
 
-public static string pieceCross = @"                
+public static Dictionary<string, string> boardSegments = new Dictionary<string, string> {
+
+{"boardTop", 
+@" ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   
+/                                                   /║  
+╔════════════════╦════════════════╦════════════════╗ ║  "},
+
+{"boardMidDiv", 
+@"╠════════════════╬════════════════╬════════════════╣ ║  "},
+
+{"boardBottom", 
+@"╚════════════════╩════════════════╩════════════════╝    "},
+
+{"columnSingle", 
+@"║
+║
+║
+║
+║
+║
+║"},
+
+{"columnDouble", 
+@"║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  "},
+
+{"columnEnd", 
+@"║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  
+║ ║  
+║/   "},
+
+{"squareBlank", 
+@"                
+                
+                
+                
+                
+                
+                "},
+
+{"squareCross", 
+@"                
    ██▖    ▗██   
     ▝██▖▗██▘    
       ▐██▌      
     ▗██▘▝██▖    
    ██▘    ▝██   
-                ";
+                "},
 
-public static string pieceCircle = @"                
+{"squareCircle", 
+@"                
     ▗██████▖    
     █▘    ▝█    
     █      █    
     █▖    ▗█    
     ▝██████▘    
-                ";
+                "},
 
-
+};
 }
