@@ -1,4 +1,4 @@
-public class GameDriver {
+public class GameBoard {
 
 	public static Dictionary<string, string> boardSegments = new Dictionary<string, string> {
 
@@ -72,7 +72,7 @@ public class GameDriver {
 
 	private string[,] boardState = new string[3,3];
 
-	public Game() {
+	public GameBoard() {
 
 		BoardState = boardState;
 	}
@@ -80,7 +80,7 @@ public class GameDriver {
 	public string[,] BoardState {
 		get {return boardState;}
 		set {
-			
+
 			boardState = value;
 		}
 	}
