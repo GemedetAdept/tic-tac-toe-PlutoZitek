@@ -42,17 +42,7 @@ void unitTest() {
 
 	GameBoard newBoard = new GameBoard();
 
-	void Populate(GameBoard board) {
-
-		for (int i = 0; i < GameBoard.boardWidth; i++) {
-			for (int j = 0; j < GameBoard.boardHeight; j++) {
-
-				board.BoardState[i,j] = new Tile(i,j);
-			}
-		}
-	}
-
-	Populate(newBoard);
+	GameBoard.Populate(newBoard);
 
 	foreach (Tile tile in newBoard.BoardState) {
 

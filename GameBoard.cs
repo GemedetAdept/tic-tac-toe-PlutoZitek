@@ -86,4 +86,14 @@ public class GameBoard {
 			boardState = value;
 		}
 	}
+
+	public static void Populate(GameBoard board) {
+
+		for (int i = 0; i < boardWidth; i++) {
+			for (int j = 0; j < boardHeight; j++) {
+				
+				board.BoardState[i,j] = new Tile(i,j);
+			}
+		}
+	}
 }
