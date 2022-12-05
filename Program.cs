@@ -1,5 +1,4 @@
 ﻿using menudriver;
-using gamedriver;
 
 // CS1400 - Extra Credit, Tic-Tac-Toe
 // Pluto Zitek, 2022-12-05
@@ -22,6 +21,8 @@ void mainMenu() {
 		switch(selectionMenu.selectedItem) {
 
 			case 0:
+				Console.WriteLine(GameDriver.pieceCross);
+				Console.ReadKey();
 				continue;
 			case 1:
 				Environment.Exit(0);

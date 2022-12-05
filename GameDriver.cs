@@ -1,7 +1,6 @@
-namespace gamedriver {
-	public class GameDriver {
+public class GameDriver {
 
-string pieceCross = @"                
+public static string pieceCross = @"                
    ██▖    ▗██   
     ▝██▖▗██▘    
       ▐██▌      
@@ -9,7 +8,7 @@ string pieceCross = @"
    ██▘    ▝██   
                 ";
 
-string pieceCircle = @"                
+public static string pieceCircle = @"                
     ▗██████▖    
     █▘    ▝█    
     █      █    
@@ -18,5 +17,4 @@ string pieceCircle = @"
                 ";
 
 
-	}
 }
