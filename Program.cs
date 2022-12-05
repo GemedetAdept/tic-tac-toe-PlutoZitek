@@ -1,24 +1,8 @@
 ﻿using menudriver;
+using gamedriver;
 
 // CS1400 - Extra Credit, Tic-Tac-Toe
 // Pluto Zitek, 2022-12-05
-
-string pieceCross = @"                
-   ██▖    ▗██   
-    ▝██▖▗██▘    
-      ▐██▌      
-    ▗██▘▝██▖    
-   ██▘    ▝██   
-                ";
-
-string pieceCircle = @"                
-    ▗██████▖    
-    █▘    ▝█    
-    █      █    
-    █▖    ▗█    
-    ▝██████▘    
-                ";
-
 
 MenuDriver selectionMenu = new MenuDriver();
 string[] options = new string[] {
