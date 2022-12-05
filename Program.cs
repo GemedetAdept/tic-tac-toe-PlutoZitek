@@ -24,7 +24,7 @@ void mainMenu() {
 		switch(selectionMenu.selectedItem) {
 
 			case 0:
-				printText();
+				unitTest();
 				Console.ReadKey();
 				continue;
 			case 1:
@@ -38,12 +38,24 @@ void mainMenu() {
 
 mainMenu();
 
-void printText() {
+void unitTest() {
 
-foreach (KeyValuePair<string, string> kvp in GameDriver.boardSegments) {
+	GameBoard newBoard = new GameBoard();
 
-	string segment = GraphicPostProcess.StripTabs(kvp.Value);
-	Console.WriteLine(segment);
+	void Populate(GameBoard board) {
+
+		for (int i = 0; i < GameBoard.boardWidth; i++) {
+			for (int j = 0; j < GameBoard.boardHeight; j++) {
+
+				board.BoardState[i,j] = new Tile(i,j);
+			}
+		}
+	}
+
+	Populate(newBoard);
+
+	foreach (Tile tile in newBoard.BoardState) {
+
+		Console.WriteLine($"{tile.CoordX}, {tile.CoordY}");
+	}
 }
-
-};

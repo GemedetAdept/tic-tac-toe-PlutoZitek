@@ -1,16 +1,19 @@
 public class Tile {
 
-	int coordX;
-	int coordY;
-	bool isMarked;
-	bool isActive;
-	ConsoleColor markerColor;
-	ConsoleColor tileColor;
+	private int coordX;
+	private int coordY;
+	// bool isMarked;
+	// bool isActive;
+	// ConsoleColor markerColor;
+	// ConsoleColor tileColor;
 
 	public Tile(int x, int y) {
 
 		CoordX = coordX;
 		CoordY = coordY;
+
+		CoordX = x;
+		CoordY = y;
 	}
 
 	public int CoordX {

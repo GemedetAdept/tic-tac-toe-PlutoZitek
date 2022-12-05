@@ -70,14 +70,16 @@ public class GameBoard {
 
 		};
 
-	private string[,] boardState = new string[3,3];
+	public const int boardWidth = 3;
+	public const int boardHeight = 3;
+	static Tile[,] boardState = new Tile[boardWidth, boardHeight];
 
 	public GameBoard() {
 
 		BoardState = boardState;
 	}
 
-	public string[,] BoardState {
+	public Tile[,] BoardState {
 		get {return boardState;}
 		set {
 
