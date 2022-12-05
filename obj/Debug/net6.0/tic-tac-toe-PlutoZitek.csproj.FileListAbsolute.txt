@@ -1,0 +1,15 @@
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\tic-tac-toe-PlutoZitek.exe
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\tic-tac-toe-PlutoZitek.deps.json
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\tic-tac-toe-PlutoZitek.runtimeconfig.json
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\tic-tac-toe-PlutoZitek.dll
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\ref\tic-tac-toe-PlutoZitek.dll
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\bin\Debug\net6.0\tic-tac-toe-PlutoZitek.pdb
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.csproj.AssemblyReference.cache
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.AssemblyInfoInputs.cache
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.AssemblyInfo.cs
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.csproj.CoreCompileInputs.cache
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.dll
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\ref\tic-tac-toe-PlutoZitek.dll
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.pdb
+C:\Users\vivian.zitek\Programming\cSharp\_CS1400-ExtraCredit\tic-tac-toe-PlutoZitek\obj\Debug\net6.0\tic-tac-toe-PlutoZitek.genruntimeconfig.cache
