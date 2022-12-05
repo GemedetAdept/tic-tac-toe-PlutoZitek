@@ -69,4 +69,19 @@ public class GameDriver {
 		                "},
 
 		};
+
+	private string[,] boardState = new string[3,3];
+
+	public Game() {
+
+		BoardState = boardState;
+	}
+
+	public string[,] BoardState {
+		get {return boardState;}
+		set {
+			
+			boardState = value;
+		}
+	}
 }
