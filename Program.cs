@@ -1,4 +1,7 @@
-﻿using menudriver;
+﻿using Microsoft.VisualBasic;
+using System.IO;
+using System.Text;
+Console.OutputEncoding = Encoding.Unicode;
 
 // CS1400 - Extra Credit, Tic-Tac-Toe
 // Pluto Zitek, 2022-12-05
@@ -21,7 +24,7 @@ void mainMenu() {
 		switch(selectionMenu.selectedItem) {
 
 			case 0:
-				Console.WriteLine(GameDriver.pieceCross);
+				printText();
 				Console.ReadKey();
 				continue;
 			case 1:
@@ -34,3 +37,13 @@ void mainMenu() {
 }
 
 mainMenu();
+
+void printText() {
+
+foreach (KeyValuePair<string, string> kvp in GameDriver.boardSegments) {
+
+	string segment = GraphicPostProcess.StripTabs(kvp.Value);
+	Console.WriteLine(segment);
+}
+
+};
