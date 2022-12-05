@@ -1,4 +1,4 @@
-public class GraphicPostProcess {
+public class GraphicsDriver {
 
 	public static string StripTabs(string inputString) {
 
