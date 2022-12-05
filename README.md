@@ -4,6 +4,7 @@ Extra credit tic-tac-toe program for CS1400.
 
 ## ASCII/ANSI Graphical Segments
 
+```
  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   
 /                                                   /║  
 ╔════════════════╦════════════════╦════════════════╗ ║  
@@ -49,3 +50,4 @@ Extra credit tic-tac-toe program for CS1400.
     █▖    ▗█    
     ▝██████▘    
                 
+```
